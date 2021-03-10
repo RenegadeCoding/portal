@@ -638,8 +638,19 @@ input[type="file"] {
 
 /* Lower Stat Text */
 
-.stat-text-wrapper {
+.stat-group-wrapper {
   position: absolute;
+}
+.stat_text_smaller {
+  display: inline-flex;
+  font-size: 13px;
+}
+.stat_text_small {
+  display: inline-flex;
+  font-size: 16px;
+}
+.stat_title {
+  margin-right: 3px;
 }
 .stat-1 {
   left: 0px;
@@ -686,4 +697,7 @@ input[type="file"] {
 }
 .cskill {
   margin-right: -135px;
+}
+#block_label {
+  visibility: hidden;
 }
